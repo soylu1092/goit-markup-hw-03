@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 button {
   background-color: #4d5ae5;
   color: #ffffff;
@@ -27,8 +32,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: white;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 button:hover {
   background-color: #404bbf;
@@ -97,7 +100,6 @@ body {
 }
 .secc {
   background-color: #2e2f42;
-  width: 1440px;
   height: 600px;
   font-weight: 700;
   font-size: 56px;
@@ -109,17 +111,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .sec-1 {
   background-color: white;
-  padding: 40px 0;
-  margin: 60px auto;
-  width: 1128px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 156px;
 }
 .sec-1 ul {
   display: flex;
@@ -143,22 +138,16 @@ nav li {
   list-style: none;
 }
 .our-team {
-  width: 1440px;
-
+  padding: 120px 0;
   background-color: #f4f4fd;
   padding: 40px 0;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 .our-port {
-  width: 1128px;
-
-  margin: 0 auto;
+  padding: 120px 0;
   text-align: center;
-  padding: 40px 0;
 }
 .ull--2 {
   display: grid;
@@ -166,10 +155,6 @@ nav li {
   justify-content: center;
   gap: 24px;
   list-style: none;
-  padding: 0;
-  margin: 40px auto;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .ull {
   margin: 0;
@@ -179,8 +164,6 @@ nav li {
   list-style: none;
   gap: 24px;
   justify-content: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .li-card {
   background: #fff;
@@ -313,14 +296,13 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   margin-left: 156px;
 }
-.title {
-  padding-top: 72px;
-  padding-bottom: 72px;
+.title-2 {
+  margin-bottom: 72px;
 }
 
 .nav {
   background-color: white;
-  padding: 10px 40px;
+  padding: 24px 156px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -328,29 +310,23 @@ ul {
 .left {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 76px;
 }
 .menu {
   display: flex;
   gap: 40px;
   list-style: none;
-  margin-left: 75px;
-  margin-top: 24px;
 }
 address {
   display: flex;
   align-items: center;
   gap: 30px;
   font-style: normal;
-  margin: 0 auto;
-  margin-right: 20px;
 }
 .headerrr {
   border-bottom: 1px solid white;
 }
 .logo {
-  width: 115px;
-  height: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -359,18 +335,11 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-top: 24px;
-  margin-left: 156px;
 }
 .mail {
   color: black;
   text-decoration: none;
   display: inline-block;
-  padding: 5px 10px;
-  border-radius: 5px;
-  white-space: nowrap;
-  padding: 5px 10px;
-  border-radius: 5px;
 }
 
 .mail:hover {
@@ -380,11 +349,6 @@ address {
   color: black;
   text-decoration: none;
   display: inline-block;
-  padding: 5px 10px;
-  border-radius: 5px;
-  white-space: nowrap;
-  padding: 5px 10px;
-  border-radius: 5px;
 }
 
 .phone:hover {
